@@ -1,0 +1,9 @@
+version: "2.0"
+services:
+
+  php-fpm:
+    build: docker/php-fpm
+    container_name: docker-phpunit-basic-php-fpm
+    working_dir: /application
+    volumes:
+      - .:/application

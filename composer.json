@@ -1,0 +1,22 @@
+{
+  "name": "ruschoni02/phpunit-basic",
+  "description": "PHPUnit basic project",
+  "license": "Apache-2.0",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Vitor Ruschoni",
+      "email": "vitorruschoni@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPUnitBasic\\": "src/",
+      "PHPUnitBasic\\Tests\\": "tests/"
+    }
+  }
+}
